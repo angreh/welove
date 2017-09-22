@@ -1,0 +1,6 @@
+{>"layouts/base" /}
+
+{<body}
+	aloha weee <br>
+	{teste}
+{/body}
