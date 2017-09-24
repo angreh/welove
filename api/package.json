@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "body-parser": "~1.17.1",
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.3",
@@ -16,6 +17,7 @@
     "express-validator": "^4.2.0",
     "method-override": "^2.3.9",
     "morgan": "~1.8.1",
+    "mysql2": "^1.4.2",
     "passport": "^0.4.0",
     "pug": "^2.0.0-rc.4",
     "sequelize": "^4.9.0",

@@ -87,8 +87,8 @@ app.use( methodOver ( function ( req, res )
 // Method-override: end
 
 // routers includer: start
-var routerRegister = function ( dir, fileList = [] )
-{
+var routerRegister = ( dir ) => {
+
 	fs.readdirSync ( dir ).forEach ( function ( file )
 	{
 		const filePath = path.join( dir, file )
@@ -99,6 +99,7 @@ var routerRegister = function ( dir, fileList = [] )
 		}
 		else
 		{
+			console.log ( filePath, filePath.slice ( 6, -3 ) )
 			var rota = ( filePath == 'routes/index.js' ) ? '/' : filePath.slice ( 6, -3 )
 			app.use (
 				rota,
