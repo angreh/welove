@@ -99,7 +99,7 @@ var routerRegister = ( dir ) => {
 		}
 		else
 		{
-			console.log ( filePath, filePath.slice ( 6, -3 ) )
+			//console.log ( filePath, filePath.slice ( 6, -3 ) )
 			var rota = ( filePath == 'routes/index.js' ) ? '/' : filePath.slice ( 6, -3 )
 			app.use (
 				rota,

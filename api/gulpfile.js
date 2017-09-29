@@ -1,8 +1,4 @@
 var gulp 		= require ( 'gulp' ),
-	sass 		= require ( 'gulp-sass' ),
-	concat 		= require ( 'gulp-concat' ),
-	livereload 	= require ( 'gulp-livereload' ),
-	i18next 	= require ( 'i18next-parser' ),
 	nodemon 	= require ( 'gulp-nodemon' )
 
 
